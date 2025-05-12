@@ -2,77 +2,83 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>StudyDocu - Servicios Académicos</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyDocu - Servicios Académicos</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #001f3f;
-      color: white;
-      text-align: center;
+      background-color: #f2f2f2;
+      color: #333;
     }
 
     header {
-      background-color: #FFCC00;
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
       padding: 20px;
     }
 
     header img {
-      width: 80px;
+      width: 90px;
+      border-radius: 10px;
     }
 
     h1 {
-      margin: 0;
+      margin: 10px 0 0;
       font-size: 2em;
-      color: #001f3f;
     }
 
     main {
-      padding: 40px 20px;
+      padding: 30px;
+      text-align: center;
     }
 
     .servicios {
-      background-color: #003366;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .servicio {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       padding: 20px;
-      border-radius: 10px;
-      max-width: 600px;
-      margin: 20px auto;
     }
 
-    .servicios h2 {
-      color: #FFCC00;
-    }
-
-    .servicios ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .servicios li {
-      padding: 5px 0;
+    .servicio i {
+      font-size: 36px;
+      color: #001f3f;
+      margin-bottom: 10px;
     }
 
     .whatsapp-btn {
-      display: inline-block;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
       background-color: #25D366;
       color: white;
-      padding: 12px 24px;
-      font-size: 16px;
-      border-radius: 30px;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
       text-decoration: none;
-      margin-top: 30px;
-      transition: 0.3s;
-    }
-
-    .whatsapp-btn:hover {
-      background-color: #1DA851;
+      z-index: 1000;
     }
 
     footer {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      background-color: #001f3f;
+      color: white;
+      margin-top: 50px;
     }
   </style>
 </head>
@@ -81,29 +87,41 @@
   <header>
     <img src="logo.jpeg" alt="Logo StudyDocu">
     <h1>StudyDocu</h1>
+    <p>Asistencia académica para estudiantes universitarios</p>
   </header>
 
   <main>
-    <p>🚀 Servicios académicos confiables y personalizados para estudiantes universitarios.</p>
-
+    <h2>📚 Nuestros Servicios</h2>
     <div class="servicios">
-      <h2>📚 Servicios</h2>
-      <ul>
-        <li>Ensayos y artículos académicos</li>
-        <li>Resúmenes y tareas</li>
-        <li>Pruebas en línea</li>
-        <li>Asistencia en plataformas (UTPL, UCES, etc.)</li>
-        <li>Formateo APA / Normas académicas</li>
-      </ul>
+      <div class="servicio">
+        <i class="fas fa-file-alt"></i>
+        <h3>Ensayos y artículos</h3>
+        <p>Redacción académica con normas APA, ICONTEC, Vancouver, etc.</p>
+      </div>
+      <div class="servicio">
+        <i class="fas fa-list-ul"></i>
+        <h3>Resúmenes</h3>
+        <p>Lectura crítica y síntesis clara para presentaciones o tareas.</p>
+      </div>
+      <div class="servicio">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Plataformas virtuales</h3>
+        <p>Apoyo en UTPL, UCES, Moodle, Blackboard, entre otras.</p>
+      </div>
+      <div class="servicio">
+        <i class="fas fa-user-edit"></i>
+        <h3>Pruebas en línea</h3>
+        <p>Asistencia en evaluaciones, test, y cuestionarios.</p>
+      </div>
     </div>
-
-    <a class="whatsapp-btn" href="https://wa.me/593958757302" target="_blank">
-      📲 Contáctanos por WhatsApp
-    </a>
   </main>
 
+  <a class="whatsapp-btn" href="https://wa.me/593958757302" target="_blank" title="Chatea con nosotros por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
   <footer>
-    © 2025 StudyDocu. Todos los derechos reservados.
+    © 2025 StudyDocu · Todos los derechos reservados
   </footer>
 
 </body>
