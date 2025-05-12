@@ -30,6 +30,23 @@
       font-size: 2em;
     }
 
+    nav {
+      background-color: #003366;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     main {
       padding: 30px;
       text-align: center;
@@ -40,24 +57,29 @@
       margin-bottom: 10px;
     }
 
-    .servicios, .asesores {
+    section {
       background-color: white;
       border-radius: 12px;
       padding: 20px;
       margin: 20px auto;
-      max-width: 800px;
+      max-width: 900px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       text-align: left;
     }
 
-    .servicios ul, .asesores ul {
+    ul {
       list-style: none;
       padding: 0;
     }
 
-    .servicios li, .asesores li {
+    li {
       margin: 10px 0;
       font-size: 17px;
+    }
+
+    a {
+      color: #0074cc;
+      text-decoration: none;
     }
 
     .whatsapp-btn {
@@ -95,15 +117,30 @@
     <p>Servicios académicos para estudiantes universitarios</p>
   </header>
 
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="blog.html">Blog</a>
+    <a href="testimonios.html">Testimonios</a>
+    <a href="faq.html">Preguntas Frecuentes</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="pago.html">Pago</a>
+  </nav>
+
   <main>
-    <section class="servicios">
+    <section>
+      <h2>📘 Acerca de nosotros</h2>
+      <p><strong>StudyDocu Trabajos Académicos</strong> ofrece apoyo personalizado en la elaboración de ensayos, tareas, cuestionarios, foros, exámenes virtuales y más. Atendemos de forma rápida y profesional por WhatsApp y correo electrónico, con atención en toda Latinoamérica. ¡Ideal para estudiantes universitarios que buscan calidad, puntualidad y confidencialidad!</p>
+      <p><strong>StudyDocu</strong> nació con el objetivo de brindar apoyo académico real y oportuno a quienes enfrentan la presión de la universidad. Sabemos lo que significa tener múltiples entregas, poco tiempo y altos estándares. Por eso trabajamos con responsabilidad, discreción y calidad. Cada solicitud es atendida de forma personalizada para garantizar resultados que superen tus expectativas. <strong>Tu éxito también es el nuestro.</strong></p>
+    </section>
+
+    <section>
       <h2>📚 Nuestros Servicios</h2>
       <ul>
         <li>✅ Ensayos UTPL – <strong>$14,99</strong></li>
         <li>✅ Ensayos académicos (todo tipo) – <strong>$20,00</strong></li>
         <li>✅ Exámenes complexivo – <strong>$50,00</strong></li>
         <li>✅ Exámenes de validación – <strong>$40,00</strong></li>
-        <li>✅ Exámenes bimestrales (todas las carreras) – <strong>$20,00</strong></li>
+        <li>✅ Exámenes bimestrales – <strong>$20,00</strong></li>
         <li>✅ Proyectos de programación – <strong>$100,00</strong></li>
         <li>✅ Plataforma completa EVA o CANVA – <strong>$125,00</strong></li>
         <li>✅ Revisión de Normas APA – <strong>$30,00</strong></li>
@@ -112,19 +149,28 @@
       </ul>
     </section>
 
-    <section class="asesores">
-      <h2>📲 Asesores Disponibles</h2>
+    <section>
+      <h2>📲 Asesores</h2>
       <ul>
-        <li>👤 Asesor 1: <a href="https://wa.me/593958757302" target="_blank">593958757302</a></li>
-        <li>👤 Asesor 2: <a href="https://wa.me/593995226059" target="_blank">593995226059</a></li>
-        <li>👤 Asesor 3: <a href="https://wa.me/593997337305" target="_blank">593997337305</a></li>
-        <li>👤 Asesor 4: <a href="https://wa.me/593995166147" target="_blank">593995166147</a></li>
+        <li>👤 Asesor 1: <a href="https://wa.me/593958757302">593958757302</a></li>
+        <li>👤 Asesor 2: <a href="https://wa.me/593995226059">593995226059</a></li>
+        <li>👤 Asesor 3: <a href="https://wa.me/593997337305">593997337305</a></li>
+        <li>👤 Asesor 4: <a href="https://wa.me/593995166147">593995166147</a></li>
       </ul>
       <p><strong>⏰ Atendemos todos los días</strong></p>
     </section>
+
+    <section>
+      <h2>🎓 Recursos Académicos Gratuitos</h2>
+      <ul>
+        <li>📌 <a href="https://youtu.be/4Faacbl1AAc?si=gULAIbPxrNyDp4Hz" target="_blank">6 alternativas GRATUITAS a ChatGPT 🤯</a></li>
+        <li>📌 <a href="https://youtu.be/YM3vTG4rVJU?si=9Z-1moD5gRV698o3" target="_blank">Cómo hacer infografías con IA a partir de documentos en 1 clic</a></li>
+        <li>📌 <a href="https://youtu.be/h2DQJMxuPr4?si=Fkabu2-zTzaRgwy-" target="_blank">Grok 3: Musk alcanza a OpenAI 🤖 ¡Pruébalo ya!</a></li>
+      </ul>
+    </section>
   </main>
 
-  <a class="whatsapp-btn" href="https://wa.me/593958757302" target="_blank" title="Escríbenos por WhatsApp">
+  <a class="whatsapp-btn" href="https://wa.me/593958757302" target="_blank">
     <i class="fab fa-whatsapp"></i>
   </a>
 
