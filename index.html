@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>StudyDocu - Servicios Académicos</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
     body {
       margin: 0;
@@ -35,24 +35,29 @@
       text-align: center;
     }
 
-    .servicios {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 20px;
-      margin-top: 30px;
-    }
-
-    .servicio {
-      background-color: white;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      padding: 20px;
-    }
-
-    .servicio i {
-      font-size: 36px;
+    h2 {
       color: #001f3f;
       margin-bottom: 10px;
+    }
+
+    .servicios, .asesores {
+      background-color: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    .servicios ul, .asesores ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .servicios li, .asesores li {
+      margin: 10px 0;
+      font-size: 17px;
     }
 
     .whatsapp-btn {
@@ -85,38 +90,41 @@
 <body>
 
   <header>
-    <img src="logo.jpeg" alt="Logo StudyDocu">
+    <img src="logo.jpeg" alt="Logo StudyDocu" />
     <h1>StudyDocu</h1>
-    <p>Asistencia académica para estudiantes universitarios</p>
+    <p>Servicios académicos para estudiantes universitarios</p>
   </header>
 
   <main>
-    <h2>📚 Nuestros Servicios</h2>
-    <div class="servicios">
-      <div class="servicio">
-        <i class="fas fa-file-alt"></i>
-        <h3>Ensayos y artículos</h3>
-        <p>Redacción académica con normas APA, ICONTEC, Vancouver, etc.</p>
-      </div>
-      <div class="servicio">
-        <i class="fas fa-list-ul"></i>
-        <h3>Resúmenes</h3>
-        <p>Lectura crítica y síntesis clara para presentaciones o tareas.</p>
-      </div>
-      <div class="servicio">
-        <i class="fas fa-laptop-code"></i>
-        <h3>Plataformas virtuales</h3>
-        <p>Apoyo en UTPL, UCES, Moodle, Blackboard, entre otras.</p>
-      </div>
-      <div class="servicio">
-        <i class="fas fa-user-edit"></i>
-        <h3>Pruebas en línea</h3>
-        <p>Asistencia en evaluaciones, test, y cuestionarios.</p>
-      </div>
-    </div>
+    <section class="servicios">
+      <h2>📚 Nuestros Servicios</h2>
+      <ul>
+        <li>✅ Ensayos UTPL – <strong>$14,99</strong></li>
+        <li>✅ Ensayos académicos (todo tipo) – <strong>$20,00</strong></li>
+        <li>✅ Exámenes complexivo – <strong>$50,00</strong></li>
+        <li>✅ Exámenes de validación – <strong>$40,00</strong></li>
+        <li>✅ Exámenes bimestrales (todas las carreras) – <strong>$20,00</strong></li>
+        <li>✅ Proyectos de programación – <strong>$100,00</strong></li>
+        <li>✅ Plataforma completa EVA o CANVA – <strong>$125,00</strong></li>
+        <li>✅ Revisión de Normas APA – <strong>$30,00</strong></li>
+        <li>✅ Mapas conceptuales – <strong>$15,00</strong></li>
+        <li>✅ Exámenes de recuperación – <strong>$25,00</strong></li>
+      </ul>
+    </section>
+
+    <section class="asesores">
+      <h2>📲 Asesores Disponibles</h2>
+      <ul>
+        <li>👤 Asesor 1: <a href="https://wa.me/593958757302" target="_blank">593958757302</a></li>
+        <li>👤 Asesor 2: <a href="https://wa.me/593995226059" target="_blank">593995226059</a></li>
+        <li>👤 Asesor 3: <a href="https://wa.me/593997337305" target="_blank">593997337305</a></li>
+        <li>👤 Asesor 4: <a href="https://wa.me/593995166147" target="_blank">593995166147</a></li>
+      </ul>
+      <p><strong>⏰ Atendemos todos los días</strong></p>
+    </section>
   </main>
 
-  <a class="whatsapp-btn" href="https://wa.me/593958757302" target="_blank" title="Chatea con nosotros por WhatsApp">
+  <a class="whatsapp-btn" href="https://wa.me/593958757302" target="_blank" title="Escríbenos por WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
 

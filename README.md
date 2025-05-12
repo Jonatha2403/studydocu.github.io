@@ -1,38 +1,47 @@
-# 📘 StudyDocu - Servicios Académicos Profesionales
+# 📘 StudyDocu - Servicios Académicos Universitarios
 
-**StudyDocu** es una plataforma de apoyo académico confiable, segura y personalizada para estudiantes universitarios de Ecuador y Latinoamérica.
+**StudyDocu** es una plataforma confiable de apoyo académico para estudiantes universitarios. Brindamos asistencia personalizada, segura y profesional en tareas, ensayos, pruebas y proyectos.
 
 ## 🎯 Servicios que ofrecemos
 
-- ✍️ Ensayos y artículos académicos con normas APA, ICONTEC, Vancouver
-- 📋 Resúmenes y cuadros comparativos
-- 🧪 Asistencia en pruebas y exámenes en línea
-- 💻 Soporte en plataformas como UTPL, UCES, Moodle, Blackboard
-- 🧾 Presentaciones, monografías y tareas personalizadas
+| Servicio                              | Precio   |
+|---------------------------------------|----------|
+| Ensayos UTPL                          | $14,99   |
+| Ensayos académicos (todo tipo)        | $20,00   |
+| Exámenes complexivo                   | $50,00   |
+| Exámenes de validación                | $40,00   |
+| Exámenes bimestrales (todas las carreras) | $20,00   |
+| Proyecto de programación              | $100,00  |
+| Plataforma completa EVA o CANVA       | $125,00  |
+| Revisión de Normas APA                | $30,00   |
+| Mapas conceptuales                    | $15,00   |
+| Exámenes de recuperación              | $25,00   |
 
 ---
 
-## 🌐 Página web
+## 👥 Asesores de contacto
 
-Visita nuestra web en:  
-👉 [https://Jonatha2403.github.io](https://Jonatha2403.github.io)
+- 📱 [Asesor 1](https://wa.me/593958757302)
+- 📱 [Asesor 2](https://wa.me/593995226059)
+- 📱 [Asesor 3](https://wa.me/593997337305)
+- 📱 [Asesor 4](https://wa.me/593995166147)
 
----
-
-## 📲 Contáctanos
-
-📱 WhatsApp: [https://wa.me/593958757302](https://wa.me/593958757302)  
-Atendemos de lunes a sábado, 09h00 a 21h00.
+🕐 **Atendemos todos los días**
 
 ---
 
-## 🛠 Tecnología usada
+## 🌐 Sitio web
 
-- HTML5 y CSS3
+👉 [https://jonatha2403.github.io](https://jonatha2403.github.io)
+
+---
+
+## ⚙️ Tecnologías usadas
+
+- HTML5 + CSS3
 - GitHub Pages
 - Visual Studio Code
-- Git
 
 ---
 
-> Desarrollado por Jonatha2403 · © 2025 StudyDocu · Todos los derechos reservados.
+> Proyecto desarrollado por Jonatha2403 · © 2025 StudyDocu
